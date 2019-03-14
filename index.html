@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NBA Gif Machine!</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="container" id="container">
+
+        <header class="jumbotron">
+            <h1>NBA Player Gif Search Engine</h1>
+        </header>
+
+        <!-- Content search -->
+        <form class="navbar-form navbar-center" id="gif-finder">
+            <div class="form-spot">
+                    <label for="gif-input" id="search-text">
+                        <h3>Add New NBA Gifs!!</h3>
+                    </label>
+            </div>
+            <input type="text" id="gif-input" placeholder=" search NBA gifs"> <input id="add-giphy" button type="submit" class="btn btn-deafult" value="submit">
+
+            <br>
+            <br>
+            
+            <div id="buttons-div"></div>
+
+            <!-- New buttons will go here  -->
+            <div id="buttons-view"></div>
+            <br>
+
+        </form>
+
+        <!-- Gif spot -->
+
+        <div id="giphy-display" data-state="still"></div>
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+</html>

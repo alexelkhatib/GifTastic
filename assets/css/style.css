@@ -1,0 +1,42 @@
+header.jumbotron {
+    /* background: url("../assets/images/nbalogo.png"); */
+    background-color: slateblue;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-style: oblique;
+}
+
+#body{
+    background-color:slategray;
+}
+
+#container{
+    text-align: center;
+    background-color: black;
+}
+
+#search-text{
+    color: lightcyan;
+    font-family: 'Questrial', sans-serif;
+    font-size: 100px;
+}
+
+#movie-info{
+    background-color: lightcyan;
+    border-radius: 5px;
+    font-family: 'Questrial', sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#add-moviez{
+    background-color: lightcyan;
+    border-radius: 8px;
+    font-family: 'Questrial', sans-serif;
+}
+
+#buttons-view{
+
+    color: slateblue;
+}
